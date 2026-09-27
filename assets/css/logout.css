@@ -1,0 +1,13 @@
+/* Logout page styles - minimal as it redirects */
+
+.container {
+  padding: 20px;
+  max-width: 400px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+p {
+  color: var(--muted);
+  font-size: 15px;
+}

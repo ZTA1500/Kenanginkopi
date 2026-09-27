@@ -1,0 +1,47 @@
+/* Index page - Store listing styles */
+
+.page-title {
+  text-align: center;
+  color: #3a2e2e;
+  margin-top: 40px;
+}
+
+.store-wrapper {
+  max-width: 850px;
+  margin: 20px auto;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  backdrop-filter: blur(4px);
+}
+
+.stores {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.store-card {
+  width: 100%;
+  padding: 14px 18px;
+  background: rgba(255, 255, 255, 0.90);
+  border-radius: 12px;
+  margin: 14px auto;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.09);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.store-card h3 {
+  margin: 0 0 4px;
+  font-size: 18px;
+  color: #3a2e2e;
+}
+
+.store-card p {
+  margin: 0 0 10px;
+  color: #555;
+}

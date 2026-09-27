@@ -1,0 +1,64 @@
+/* Manage Coffee admin page styles */
+
+.container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+  background: rgba(255, 255, 255, 0.90);
+  border-radius: 12px;
+}
+
+h2 {
+  color: var(--accent);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 6px;
+  background: var(--accent);
+}
+
+.btn:hover {
+  opacity: 0.95;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+}
+
+table th {
+  background: #f5f5f5;
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  border: 1px solid #ddd;
+  color: var(--accent);
+}
+
+table td {
+  padding: 12px;
+  border: 1px solid #eee;
+}
+
+table tr:hover {
+  background: #f9f9f9;
+}
+
+.confirm-delete {
+  background: #d9534f;
+  padding: 8px 12px;
+  font-size: 12px;
+}
+
+.confirm-delete:hover {
+  background: #c9302c;
+  opacity: 1;
+}

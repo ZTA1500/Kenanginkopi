@@ -1,0 +1,179 @@
+/* Cart page styles - styled to match the Cart mockup */
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url('../images/BGCaffe.jpg') no-repeat center center fixed;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 900px;
+  margin: 48px auto;
+  background: rgba(255, 248, 242, 0.95);
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+  padding: 22px 26px;
+  border: 1px solid rgba(200,180,160,0.2);
+}
+
+h2 {
+  color: #6f4e37;
+  text-align: center;
+  margin: 6px 0 18px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+p {
+  margin: 12px 0;
+  color: #333;
+}
+
+.msg {
+  color: #2a6f2a;
+  background: rgba(230,247,230,0.9);
+  padding: 10px 12px;
+  border-radius: 6px;
+  margin-bottom: 14px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+table th {
+  background: #c08a64;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+table td {
+  padding: 12px;
+  border-bottom: 1px solid #e8e0d5;
+  color: #333;
+  font-size: 14px;
+}
+
+table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+table tbody tr:hover {
+  background: #fff9f3;
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 6px 8px;
+  border: 1px solid #d0c0b0;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input[type="number"]:focus {
+  border-color: #c08a64;
+  outline: none;
+}
+
+.btn-update, .btn-delete, .btn-pay {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.btn-update {
+  background: #b8956a;
+  color: white;
+}
+
+.btn-update:hover {
+  background: #a0824a;
+}
+
+.btn-delete {
+  background: #d94a3a;
+  color: white;
+}
+
+.btn-delete:hover {
+  background: #c0342a;
+}
+
+.btn-pay {
+  background: #27ae60;
+  color: white;
+  padding: 12px 32px;
+  font-size: 15px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.btn-pay:hover {
+  background: #229954;
+}
+
+.total {
+  text-align: right;
+  font-weight: 700;
+  color: #3b2a24;
+  font-size: 16px;
+  margin-top: 16px;
+  padding-top: 8px;
+  border-top: 2px solid #e8e0d5;
+}
+
+.back-link {
+  display: block;
+  margin-top: 14px;
+  color: #6f4e37;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 24px 12px;
+    padding: 16px;
+  }
+  
+  table {
+    font-size: 12px;
+  }
+  
+  table th, table td {
+    padding: 8px;
+  }
+  
+  .btn-update, .btn-delete {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+    padding: 4px 6px;
+    font-size: 12px;
+  }
+}
+
